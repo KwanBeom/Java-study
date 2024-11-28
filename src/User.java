@@ -1,20 +1,21 @@
 public class User {
     private final String name;
-    private final String gender;
-    private final int age;
+    private final String password;
 
-    User(String name, String gender, int age) {
+    public User(String name){
+        this(name, null);
+    }
+
+    public User(String name, String password) {
         this.name = name;
-        this.gender = gender;
-        this.age = age;
+        this.password = password;
     }
 
-    public static void main(String[] args) {
-
+    public String getName() {
+        return this.name;
     }
 
-    public void hello() {
-        System.out.println("hello my name is " + this.name + " i'm " + this.gender);
-        System.out.println("my age is " + this.age);
+    public String getPassword() {
+        return this.password;
     }
 }

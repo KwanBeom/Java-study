@@ -6,5 +6,7 @@ public class AccessModifierTest {
         System.out.println(am.protectedString);
         System.out.println(am.defaultString);
 
+        am.setNum(5);
+        System.out.println(am.getNum());
     }
 }

@@ -2,7 +2,6 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        User user = new User("범관", "male", 24);
-        user.hello();
+        User user = new User("범관", "1q2w3e4r!");
     }
 }

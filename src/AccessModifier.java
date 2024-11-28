@@ -1,7 +1,16 @@
 public class AccessModifier {
-    private String privateString = "private";
     public String publicString = "public";
-    String defaultString = "default";
     protected String protectedString = "protected";
-    String npe;
+    String defaultString = "default";
+    private String privateString = "private";
+
+    private int num;
+
+    public void setNum(int num) {
+        this.num = num;
+    }
+
+    public int getNum() {
+        return this.num;
+    }
 }
